@@ -21,10 +21,8 @@ var findLength = function (nums1, nums2) {
             }
             max = Math.max(max, dp[i][j])
         }
-        console.log(dp);
     }
     return max
-
 };
 findLength([1, 2, 3, 2, 1], [3, 2, 1, 4, 7])
 // @lc code=end
